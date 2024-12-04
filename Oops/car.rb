@@ -30,7 +30,12 @@ class Bus < Vehicle
   end
 end
 
-obj1 = Car.new('Celario', 'Grey', '2024')
+# obj1 = Car.new('Celario', 'Grey', '2024')
+# puts obj1.vehicle_type
+# puts obj1.vehicle_colour
+# puts obj1.car_model
+
+obj1 = Car.new('Badluram', 'Badan', 'Assam')
 puts obj1.vehicle_type
 puts obj1.vehicle_colour
 puts obj1.car_model
